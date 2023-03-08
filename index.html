@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/stylesheet.css" />
+  </head>
+
+  <body>
+    <h1>Weather Dashboard</h1>
+
+    <form>
+      <label for="cityInput">Enter a city name:</label>
+      <input type="text" id="cityInput" name="cityInput" />
+      <button type="submit">Search</button>
+    </form>
+
+    <h2>Current Weather Conditions</h2>
+    <div id="currentWeather"></div>
+
+    <h2>5-Day Forecast</h2>
+    <div id="forecast"></div>
+
+    <h2>Search History</h2>
+    <ul id="searchHistory"></ul>
+
+    <!-- import script from assets folder -->
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
